@@ -4,7 +4,8 @@ Mara Bos posted an interesting challenge a while ago ([Link](https://twitter.com
 
 > Make a rust program that outputs 'a', but after running 'cargo fmt' outputs 'b' instead.
 
-At the time of writing this code (2023-03-02) the code in `src/main.rs` does exactly that.
+At the time of writing this code (2023-03-02) the code in `src/main.rs` does exactly that.  
+See the GitHub [issue](https://github.com/rust-lang/rustfmt/issues/5377) for an explanation of the rustfmt bug.
 
 ```
 % cargo r
